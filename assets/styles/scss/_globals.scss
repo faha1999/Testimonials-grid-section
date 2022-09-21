@@ -6,10 +6,10 @@
 
 body {
   font-family: 'Barlow Semi Condensed', sans-serif;
-  font-size: 13px;
+  font-size: 0.8125rem;
   line-height: 1.7;
-  color: hsl(0, 0%, 75%);
-  background-color: hsl(210, 46%, 95%);
+  color: $Lightgray;
+  background-color: $LightGrayishBlue;
 }
 
 h1,
@@ -21,50 +21,29 @@ h4 {
 }
 
 // background
-.bg-md {
+.moderateViolet {
   background-color: $moderateViolet;
 }
-.bg-grayish-blue {
+.darkGrayishBlue {
   background-color: $darkGrayishBlue;
 }
-.bg-blackish-blue {
+.darkBlackishBlue {
   background-color: $darkBlackishBlue;
 }
-.bg-white {
-  background-color: #fff;
+.White {
+  background-color: $White;
   color: $darkGrayishBlue;
 }
 
 // Padding
-.p-1 {
-  padding: 0.5rem;
-}
-.p-2 {
-  padding: 1rem;
-}
 .p-3 {
   padding: 1.5rem;
-}
-.p-4 {
-  padding: 2rem;
 }
 .p-5 {
   padding: 2.5rem;
 }
 
 // Margin
-.mb-1 {
-  margin-bottom: 0.5rem;
-}
 .mb-2 {
   margin-bottom: 1rem;
-}
-.mb-3 {
-  margin-bottom: 1.5rem;
-}
-.mb-4 {
-  margin-bottom: 2rem;
-}
-.mb-5 {
-  margin-bottom: 2.5rem;
 }
